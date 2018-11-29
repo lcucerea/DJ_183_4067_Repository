@@ -2,12 +2,21 @@
 
 {% block content %}
 
-    <h3>Here is a list of currently imported genres:</h2>
-    <ul>
+    <h2>Choose a genre:</h2>
+
+
+<form action="/question" method="POST">
+  <select>
     {% for genre in genres %}
-    	<li>{{ genre }}</li>
+      <option>{{ genre }}</option>
     {% endfor %}
-    </ul>
-    <p>You will need to add (at least) two more genres to this list. Check out helpers.py and get started!</p>
-    
+    <input type="submit" value="Submit">
+  </select>
+</form>
+  <p>Current score: </p>
+
+  templated for loop for songs in songs
+
+
+
 {% endblock %}

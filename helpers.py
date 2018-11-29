@@ -15,7 +15,9 @@ TODO: Add at least two more genres to this dictionary. Information on how to fin
 GENRES_LIST = {
     "Current Pop Hits": "hot-100",
     "Dance Club Hits": "dance-club-play-songs",
-    "Country Classics": "greatest-country-songs"
+    "Country Classics": "greatest-country-songs",
+    "R&B/Hip-Hop Hits": "r-b-hip-hop-songs",
+    "Holiday Hits": "hot-holiday-songs"
 }
 
 """
@@ -27,6 +29,7 @@ EFFECTS: chooses four random songs from the valid Billboard chart and returns
          the top of the file to access its member functions?
 """
 def get_four_songs(chart_name):
+
     pass
 
 """
